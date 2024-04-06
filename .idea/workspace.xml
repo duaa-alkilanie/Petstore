@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfce0080-00dd-407d-9faa-ed7ab8be2be3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/CreateUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/DeleteUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/DeleteUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/UpdateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/UpdateUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2eeX1QpEQFcFWwI4GUqSFyTV4di" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,11 +44,12 @@
     "TestNG.LoginWithGetRequest.loginRequest.executor": "Run",
     "TestNG.UpdateUser.do_update_user.executor": "Run",
     "TestNG.loginUser.loginRequest.executor": "Run",
-    "git-widget-placeholder": "CRUD__requests",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/duaaakram/Downloads/Petstore"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CreateUser.testUserCreation">
+  <component name="RunManager" selected="TestNG.DeleteUser.test_delete_user">
     <configuration name="CreateUser.testUserCreation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Petstore" />
       <extension name="coverage">
@@ -127,8 +124,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CreateUser.testUserCreation" />
         <item itemvalue="TestNG.DeleteUser.test_delete_user" />
+        <item itemvalue="TestNG.CreateUser.testUserCreation" />
         <item itemvalue="TestNG.UpdateUser.do_update_user" />
         <item itemvalue="TestNG.LoginUser.loginRequest" />
       </list>

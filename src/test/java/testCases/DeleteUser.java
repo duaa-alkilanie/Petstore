@@ -2,13 +2,12 @@ package testCases;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class DeleteUser {
 
     @Test
-    public void test_delete_user() throws InterruptedException {
+    public void test_delete_user()  {
         
         Object[] createdUser = CreateUser.doCreateUser();
         String username = (String) createdUser[0];
@@ -22,7 +21,7 @@ public class DeleteUser {
         RestAssured.baseURI = url;
         // Store the username before deleting the user
 //        String deletedUsername = username;
-        System.out.println("delllllllllll"+username);
+        System.out.println("user name before delete it "+username);
         // Send DELETE request for deleting user
         Response response = RestAssured.given()
                 .when()
@@ -34,11 +33,10 @@ public class DeleteUser {
         // Print response details
         System.out.println("Response Body: " + response.getBody().asString());
         System.out.println("Status Code: " + response.getStatusCode());
-        Thread.sleep(3000);
         // Perform login using the username of the deleted user
         Object[] resultAfterDelete = LoginUser.doLogin(username, password, requestBody);
         System.out.println(requestBody);
-        System.out.println("+++++"+resultAfterDelete[2]);
+        System.out.println("result delete"+resultAfterDelete[2]);
 
     }
 }
