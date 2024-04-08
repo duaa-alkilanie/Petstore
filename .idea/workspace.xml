@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfce0080-00dd-407d-9faa-ed7ab8be2be3" name="Changes" comment="">
+    <list default="true" id="bfce0080-00dd-407d-9faa-ed7ab8be2be3" name="Changes" comment="update in  test_delete_user">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/CreateUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/DeleteUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/DeleteUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/UpdateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/UpdateUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +27,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -39,35 +48,22 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.CreateUser.testUserCreation.executor": "Run",
     "TestNG.DeleteUser.test_delete_user.executor": "Run",
+    "TestNG.DeleteUser.test_loginWithUserWasDelete.executor": "Run",
     "TestNG.GetRequestAutomation.getRequestAutomation.executor": "Run",
     "TestNG.LoginUser.loginRequest.executor": "Run",
     "TestNG.LoginWithGetRequest.loginRequest.executor": "Run",
+    "TestNG.UpdateUser.do_login_with_old_user_after_update.executor": "Run",
     "TestNG.UpdateUser.do_update_user.executor": "Run",
+    "TestNG.UpdateUser.executor": "Run",
     "TestNG.loginUser.loginRequest.executor": "Run",
+    "TestNG.testCases.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/duaaakram/Downloads/Petstore"
+    "last_opened_file_path": "/Users/duaaakram/Downloads/Petstore",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.DeleteUser.test_delete_user">
-    <configuration name="CreateUser.testUserCreation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Petstore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.CreateUser" />
-      <option name="METHOD_NAME" value="testUserCreation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.testCases">
     <configuration name="DeleteUser.test_delete_user" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Petstore" />
       <extension name="coverage">
@@ -86,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginUser.loginRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteUser.test_loginWithUserWasDelete" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Petstore" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +91,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.LoginUser" />
-      <option name="METHOD_NAME" value="loginRequest" />
+      <option name="MAIN_CLASS_NAME" value="testCases.DeleteUser" />
+      <option name="METHOD_NAME" value="test_loginWithUserWasDelete" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateUser.do_login_with_old_user_after_update" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Petstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.UpdateUser" />
+      <option name="METHOD_NAME" value="do_login_with_old_user_after_update" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,12 +136,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testCases" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Petstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.testCases" />
+        <item itemvalue="TestNG.UpdateUser.do_login_with_old_user_after_update" />
         <item itemvalue="TestNG.DeleteUser.test_delete_user" />
-        <item itemvalue="TestNG.CreateUser.testUserCreation" />
+        <item itemvalue="TestNG.DeleteUser.test_loginWithUserWasDelete" />
         <item itemvalue="TestNG.UpdateUser.do_update_user" />
-        <item itemvalue="TestNG.LoginUser.loginRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +178,19 @@
       <option name="presentableId" value="Default" />
       <updated>1712265804329</updated>
     </task>
+    <task id="LOCAL-00001" summary="update in  test_delete_user">
+      <option name="closed" value="true" />
+      <created>1712408576593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712408576593</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update in  test_delete_user" />
+    <option name="LAST_COMMIT_MESSAGE" value="update in  test_delete_user" />
   </component>
 </project>

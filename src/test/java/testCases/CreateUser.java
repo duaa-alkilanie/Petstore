@@ -8,7 +8,7 @@ import static org.testng.Assert.assertNotNull;
 
 public class CreateUser {
 
-        @Test
+        @Test(description = "create a new user with valid data ")
         public void testUserCreation() {
                 // Call the doCreateUser() method to create a user and retrieve the response
                 Object[] result = CreateUser.doCreateUser();
@@ -23,6 +23,7 @@ public class CreateUser {
                 // Ensure that the extracted message is not null
                 assertNotNull(message, "The message in the response is not null");
         }
+
 
         public static Object[] doCreateUser() {
                 // Set base URI
@@ -60,4 +61,9 @@ public class CreateUser {
                 // Return the generated username, password, and the entire response
                 return new Object[] { username, password, response, requestBody };
         }
+
+
 }
+
+
+

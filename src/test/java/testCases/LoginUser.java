@@ -41,10 +41,12 @@ public class LoginUser {
                 .extract()
                 .response();
         System.out.println("the login user done successfully ");
-        String responseBody = response.getBody().asString();
-
-
+        Response responseBody= (Response) response.getBody();
+        
         return new Object[] { loginUserName, LoginPassword, responseBody, requestBody };
 
     }
 }
+
+
+
